@@ -12,6 +12,7 @@ This project implements a real-time weather monitoring system that fetches weath
 
 ## Architecture
 
+![Architecture Diagram](Images/Architecture-diagram.svg)
 The solution architecture is built on two main technology stacks:
 
 ### Azure Components
