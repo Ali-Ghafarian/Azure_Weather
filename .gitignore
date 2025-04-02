@@ -120,6 +120,10 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
+
+# VS Code workspace files
+*.code-workspace
+
 .pyre/
 
 # Azure Functions artifacts
