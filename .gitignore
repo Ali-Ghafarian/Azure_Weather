@@ -140,3 +140,7 @@ __azurite_db*__.json
 # All JSON files
 *.json
 .python_packages
+
+
+my-dev/
+my-dev/
