@@ -22,7 +22,7 @@ The solution architecture is built on two main technology stacks:
   Utilized for serverless, cost-effective data ingestion. A timer-triggered function runs every 30 seconds to fetch data from the weather API and send it to EvenetHub to be finally loaded into KQL DB. Managed identities grant direct access to Event Stream and Key Vault for secure secret management.
 
 - **Azure Databricks:**  
-  Explored as an alternative for data ingestion. A Python script within a Databricks notebook fetches weather data and sends it to EvenetHub to be finally loaded into KQL DB. Secrets are managed using Azure Key Vault integrated with Databricks. However, for this specific use case, Azure Functions was preferred due to cost and performance considerations.
+  Explored as an alternative for data ingestion. A Python script within a Databricks notebook fetches weather data and sends it to EvenetHub to be finally loaded into KQL DB. Secrets are managed using Azure Key Vault integrated with Databricks. However, for this specific use case, Azure Functions was preferred due to cost and performance considerations. PySpark commands are used to handle streaming and continuous data processing.
 
 ### Data Transport
 - **Azure Event Hubs:**  
